@@ -64,7 +64,7 @@ public class KonversiAOK {
                 break;
 
             case 4:
-                System.out.print("Masukkan bilangan Heksadesimal: ");
+                System.out.print("Masukkan bilangan heksadesimal: ");
                 String hex4 = input.next();
                 int dec4 = Integer.parseInt(hex4, 16);
                 String bin4 = Integer.toBinaryString(dec4);
@@ -79,7 +79,7 @@ public class KonversiAOK {
                 break;
 
             case 6:
-                System.out.print("Masukkan bilangan Heksadesimal: ");
+                System.out.print("Masukkan bilangan heksadesimal: ");
                 String hex6 = input.next();
                 int dec6 = Integer.parseInt(hex6, 16);
                 System.out.println("Hasil konversi: " + dec6);
